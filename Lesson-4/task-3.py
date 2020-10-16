@@ -35,10 +35,11 @@ def revers_3(enter_num):
     revers_num = enter_num[::-1]
     return revers_num
 
+
 def main():
-     revers(A)
-     revers_2(A)
-     revers_3(A)
+    revers(A)
+    revers_2(A)
+    revers_3(A)
 
 
 # Цифры говорят сами за себя в 1 и 2 решении используется много сравнений и других операций а это время в нижнем идет присвоении и срез

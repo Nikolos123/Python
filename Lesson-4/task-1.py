@@ -33,3 +33,6 @@ print(timeit.timeit("func_2(a)", setup="from __main__ import func_2, a", number=
 # Время  замера
 # func 0.6123506759977317 milleseconds
 # func2 0.5176595420052763 milleseconds
+
+#Аналитика
+#Добавил вариант с генераторным вырожением так как она отрабатывает быстрей время приведено выше
